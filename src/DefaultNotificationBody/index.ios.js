@@ -16,7 +16,14 @@ import GestureRecognizer, {
 const styles = {
   root: {
     flex: 1,
-    backgroundColor: "#ffff"
+    backgroundColor: "#ffff",
+    borderBottomLeftRadius: 5,
+    borderBottomRightRadius: 5,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 1
   },
   container: {
     position: "absolute",
